@@ -6,7 +6,7 @@
 
 .intro1, prolist, a.prolink  {
     align-items: center;
-    color: white;
+    color: black;
     margin-right: 25px;
     flex-wrap: wrap;
     font-size: 17px;
