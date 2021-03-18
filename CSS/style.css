@@ -1,19 +1,17 @@
 * {
-    font-family: 'Akaya Kanadaka', cursive;
-    font-size: 25px;
-    
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px; 
 }
 
-
 h2 {
-    font-family: 'Akaya Kanadaka', cursive;
+        font-family: 'Spartan', sans-serif;
     font-size: 32px;
     text-decoration: underline;
 }
 
 span {
     color: chocolate;
-    font-size: 16px ;
+    font-size: 16px;
     text-decoration: underline;
 }
 
@@ -45,7 +43,7 @@ a:hover {
 }
 
 .intro {
-    background-image: url("../Images/bg.jpg");
+    background-image: url("../Images/alpha.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -56,9 +54,8 @@ a:hover {
 }
 
 .work-link1 {
-    list-style-type: circle;
+    list-style-type: square;
     align-items: center;
-
 }
 
 .dp {
