@@ -1,18 +1,15 @@
 * {
     font-family: 'Spartan', sans-serif;
-    font-size: 25px; 
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-        font-family: 'Spartan', sans-serif;
+    font-family: 'Spartan', sans-serif;
     font-size: 32px;
     text-decoration: underline;
-}
-
-span {
-    color: chocolate;
-    font-size: 16px;
-    text-decoration: underline;
+    line-height: 60px;
 }
 
 nav {
@@ -20,6 +17,7 @@ nav {
     background: black;
     justify-content: center;
     color: whitesmoke;
+    padding: 8px;
 }
 
 a {
@@ -32,15 +30,28 @@ a:hover {
 }
 
 .links {
-    display: flex;
+    display: grid;
     list-style-type: none;
     align-items: center;
 }
 
-.link {
-    margin-right: 25px;
+.prolist {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
+
+a.prolink  {
+    color: black;
+    font-size: 17px;
+}
+
+a.prolink:hover {
+    color: chocolate !important;
+    font-size: 19px;
+}
+
 
 .intro {
     background-image: url("../Images/alpha.jpg");
@@ -48,18 +59,28 @@ a:hover {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    display: flex;
     justify-content: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 .work-link1 {
-    list-style-type: square;
+    line-height: 40px;
+    list-style-type: none;
     align-items: center;
 }
 
-.dp {
-    width: 180px;
-    height: 270px;
-    border-radius: 40%;
+.footer {
+    background-image: url("../Images/alpha.jpg");
+}
+
+.footicons {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.flinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
 }
